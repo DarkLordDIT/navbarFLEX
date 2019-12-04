@@ -1,0 +1,26 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.wrapper{
+    background: aquamarine;
+    border-radius: 30px;
+}
+.left, .right{
+    flex-basis: 10px;
+    text-align: center;
+    margin: 15px;
+    flex-grow: 1;
+}
+
+.grow{
+    flex-grow: 3;
+    text-align: left;
+}
+input {
+    border-radius: 20px;
+    color: gainsboro;
+    font-style: italic;
+    background-color: whitesmoke;
+}
